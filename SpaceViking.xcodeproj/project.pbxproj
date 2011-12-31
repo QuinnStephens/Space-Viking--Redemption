@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E47016DF14AE7F82002FE09F /* scene1atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DB14AE7F82002FE09F /* scene1atlas.plist */; };
+		E47016E014AE7F82002FE09F /* scene1atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016DC14AE7F82002FE09F /* scene1atlas.png */; };
+		E47016E114AE7F82002FE09F /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */; };
+		E47016E214AE7F82002FE09F /* scene1atlasiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016DE14AE7F82002FE09F /* scene1atlasiPhone.png */; };
+		E47016E514AE7F9A002FE09F /* scene1atlasiPhone-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016E314AE7F9A002FE09F /* scene1atlasiPhone-hd.plist */; };
+		E47016E614AE7F9A002FE09F /* scene1atlasiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016E414AE7F9A002FE09F /* scene1atlasiPhone-hd.png */; };
+		E47016F714AE87B4002FE09F /* an1_anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016F314AE87B4002FE09F /* an1_anim1.png */; };
+		E47016F814AE87B4002FE09F /* an1_anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016F414AE87B4002FE09F /* an1_anim2.png */; };
+		E47016F914AE87B4002FE09F /* an1_anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016F514AE87B4002FE09F /* an1_anim3.png */; };
+		E47016FA14AE87B4002FE09F /* an1_anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016F614AE87B4002FE09F /* an1_anim4.png */; };
 		E47050C614AD489D00F6A6E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47050C514AD489D00F6A6E6 /* QuartzCore.framework */; };
 		E47050C814AD489D00F6A6E6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47050C714AD489D00F6A6E6 /* OpenGLES.framework */; };
 		E47050CA14AD489D00F6A6E6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47050C914AD489D00F6A6E6 /* OpenAL.framework */; };
@@ -166,6 +176,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E47016DB14AE7F82002FE09F /* scene1atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlas.plist; sourceTree = "<group>"; };
+		E47016DC14AE7F82002FE09F /* scene1atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlas.png; sourceTree = "<group>"; };
+		E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
+		E47016DE14AE7F82002FE09F /* scene1atlasiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlasiPhone.png; sourceTree = "<group>"; };
+		E47016E314AE7F9A002FE09F /* scene1atlasiPhone-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "scene1atlasiPhone-hd.plist"; sourceTree = "<group>"; };
+		E47016E414AE7F9A002FE09F /* scene1atlasiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scene1atlasiPhone-hd.png"; sourceTree = "<group>"; };
+		E47016F314AE87B4002FE09F /* an1_anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim1.png; sourceTree = "<group>"; };
+		E47016F414AE87B4002FE09F /* an1_anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim2.png; sourceTree = "<group>"; };
+		E47016F514AE87B4002FE09F /* an1_anim3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim3.png; sourceTree = "<group>"; };
+		E47016F614AE87B4002FE09F /* an1_anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim4.png; sourceTree = "<group>"; };
 		E47050C114AD489D00F6A6E6 /* SpaceViking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceViking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47050C514AD489D00F6A6E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E47050C714AD489D00F6A6E6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -469,6 +489,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E47016D914AE7F71002FE09F /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				E47016E314AE7F9A002FE09F /* scene1atlasiPhone-hd.plist */,
+				E47016E414AE7F9A002FE09F /* scene1atlasiPhone-hd.png */,
+				E47016DB14AE7F82002FE09F /* scene1atlas.plist */,
+				E47016DC14AE7F82002FE09F /* scene1atlas.png */,
+				E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */,
+				E47016DE14AE7F82002FE09F /* scene1atlasiPhone.png */,
+			);
+			name = Atlases;
+			sourceTree = "<group>";
+		};
 		E47050B614AD489D00F6A6E6 = {
 			isa = PBXGroup;
 			children = (
@@ -788,6 +821,11 @@
 		E470523014AD580400F6A6E6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E47016F314AE87B4002FE09F /* an1_anim1.png */,
+				E47016F414AE87B4002FE09F /* an1_anim2.png */,
+				E47016F514AE87B4002FE09F /* an1_anim3.png */,
+				E47016F614AE87B4002FE09F /* an1_anim4.png */,
+				E47016D914AE7F71002FE09F /* Atlases */,
 				E470523114AD580400F6A6E6 /* App Launch Images */,
 				E470523914AD580400F6A6E6 /* Backgrounds */,
 				E470524014AD580400F6A6E6 /* Icons */,
@@ -1014,6 +1052,16 @@
 				E470527F14AD580400F6A6E6 /* jumpUp.png in Resources */,
 				E470528014AD580400F6A6E6 /* sv_anim_1.png in Resources */,
 				E4B19B4614AE30D900BF080E /* LICENSE in Resources */,
+				E47016DF14AE7F82002FE09F /* scene1atlas.plist in Resources */,
+				E47016E014AE7F82002FE09F /* scene1atlas.png in Resources */,
+				E47016E114AE7F82002FE09F /* scene1atlasiPhone.plist in Resources */,
+				E47016E214AE7F82002FE09F /* scene1atlasiPhone.png in Resources */,
+				E47016E514AE7F9A002FE09F /* scene1atlasiPhone-hd.plist in Resources */,
+				E47016E614AE7F9A002FE09F /* scene1atlasiPhone-hd.png in Resources */,
+				E47016F714AE87B4002FE09F /* an1_anim1.png in Resources */,
+				E47016F814AE87B4002FE09F /* an1_anim2.png in Resources */,
+				E47016F914AE87B4002FE09F /* an1_anim3.png in Resources */,
+				E47016FA14AE87B4002FE09F /* an1_anim4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
