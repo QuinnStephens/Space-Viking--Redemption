@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E428395B14B411D10042A1D5 /* RadarDish.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395A14B411D10042A1D5 /* RadarDish.plist */; };
+		E428396014B413920042A1D5 /* EnemyRobot.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395C14B413920042A1D5 /* EnemyRobot.plist */; };
+		E428396114B413920042A1D5 /* Health.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395D14B413920042A1D5 /* Health.plist */; };
+		E428396214B413920042A1D5 /* Mallet.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395E14B413920042A1D5 /* Mallet.plist */; };
+		E428396314B413920042A1D5 /* Viking.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395F14B413920042A1D5 /* Viking.plist */; };
+		E428396F14B417890042A1D5 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E428396E14B417890042A1D5 /* GameObject.m */; };
 		E47016DF14AE7F82002FE09F /* scene1atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DB14AE7F82002FE09F /* scene1atlas.plist */; };
 		E47016E014AE7F82002FE09F /* scene1atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016DC14AE7F82002FE09F /* scene1atlas.png */; };
 		E47016E114AE7F82002FE09F /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */; };
@@ -126,7 +132,6 @@
 		E470522014AD489F00F6A6E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E470521F14AD489F00F6A6E6 /* main.m */; };
 		E470522314AD489F00F6A6E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E470522214AD489F00F6A6E6 /* AppDelegate.m */; };
 		E470522614AD489F00F6A6E6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470522514AD489F00F6A6E6 /* RootViewController.m */; };
-		E470522914AD489F00F6A6E6 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E470522814AD489F00F6A6E6 /* HelloWorldLayer.m */; };
 		E470525D14AD580400F6A6E6 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E470523214AD580400F6A6E6 /* Default-Landscape.png */; };
 		E470525E14AD580400F6A6E6 /* Default-LandscapeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E470523314AD580400F6A6E6 /* Default-LandscapeLeft.png */; };
 		E470525F14AD580400F6A6E6 /* Default-LandscapeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E470523414AD580400F6A6E6 /* Default-LandscapeRight.png */; };
@@ -176,6 +181,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E428395A14B411D10042A1D5 /* RadarDish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RadarDish.plist; sourceTree = "<group>"; };
+		E428395C14B413920042A1D5 /* EnemyRobot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnemyRobot.plist; sourceTree = "<group>"; };
+		E428395D14B413920042A1D5 /* Health.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Health.plist; sourceTree = "<group>"; };
+		E428395E14B413920042A1D5 /* Mallet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mallet.plist; sourceTree = "<group>"; };
+		E428395F14B413920042A1D5 /* Viking.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Viking.plist; sourceTree = "<group>"; };
+		E428396B14B4147A0042A1D5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E428396C14B415350042A1D5 /* CommonProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
+		E428396D14B417890042A1D5 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = Classes/GameObject.h; sourceTree = "<group>"; };
+		E428396E14B417890042A1D5 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = Classes/GameObject.m; sourceTree = "<group>"; };
 		E47016DB14AE7F82002FE09F /* scene1atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlas.plist; sourceTree = "<group>"; };
 		E47016DC14AE7F82002FE09F /* scene1atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlas.png; sourceTree = "<group>"; };
 		E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
@@ -410,8 +424,6 @@
 		E470522214AD489F00F6A6E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E470522414AD489F00F6A6E6 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E470522514AD489F00F6A6E6 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E470522714AD489F00F6A6E6 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		E470522814AD489F00F6A6E6 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		E470522A14AD489F00F6A6E6 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		E470523214AD580400F6A6E6 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
 		E470523314AD580400F6A6E6 /* Default-LandscapeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeLeft.png"; sourceTree = "<group>"; };
@@ -489,6 +501,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E428395814B411B50042A1D5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				E428395C14B413920042A1D5 /* EnemyRobot.plist */,
+				E428395D14B413920042A1D5 /* Health.plist */,
+				E428395E14B413920042A1D5 /* Mallet.plist */,
+				E428395F14B413920042A1D5 /* Viking.plist */,
+				E428395A14B411D10042A1D5 /* RadarDish.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		E428396414B413B70042A1D5 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				E470522114AD489F00F6A6E6 /* AppDelegate.h */,
+				E470522214AD489F00F6A6E6 /* AppDelegate.m */,
+				E470528214AD60C400F6A6E6 /* BackgroundLayer.h */,
+				E470528314AD60C400F6A6E6 /* BackgroundLayer.m */,
+				E470528514AD62F300F6A6E6 /* GameplayLayer.h */,
+				E470528614AD62F300F6A6E6 /* GameplayLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		E428396514B413D70042A1D5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E470528814AD645C00F6A6E6 /* GameScene.h */,
+				E470528914AD645C00F6A6E6 /* GameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		E428396614B413DB0042A1D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E428396B14B4147A0042A1D5 /* Constants.h */,
+				E428396C14B415350042A1D5 /* CommonProtocols.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		E428396714B413E60042A1D5 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				E428396D14B417890042A1D5 /* GameObject.h */,
+				E428396E14B417890042A1D5 /* GameObject.m */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		E428396814B413F30042A1D5 /* EnemyObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EnemyObjects;
+			sourceTree = "<group>";
+		};
+		E428396914B413FD0042A1D5 /* PowerUps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PowerUps;
+			sourceTree = "<group>";
+		};
+		E428396A14B414050042A1D5 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
 		E47016D914AE7F71002FE09F /* Atlases */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,14 +622,11 @@
 		E47050D514AD489D00F6A6E6 /* SpaceViking */ = {
 			isa = PBXGroup;
 			children = (
+				E428395814B411B50042A1D5 /* Plists */,
 				E470523014AD580400F6A6E6 /* Images */,
 				E470528114AD607E00F6A6E6 /* Classes */,
-				E470522114AD489F00F6A6E6 /* AppDelegate.h */,
-				E470522214AD489F00F6A6E6 /* AppDelegate.m */,
 				E470522414AD489F00F6A6E6 /* RootViewController.h */,
 				E470522514AD489F00F6A6E6 /* RootViewController.m */,
-				E470522714AD489F00F6A6E6 /* HelloWorldLayer.h */,
-				E470522814AD489F00F6A6E6 /* HelloWorldLayer.m */,
 				E470522A14AD489F00F6A6E6 /* GameConfig.h */,
 				E47050D614AD489D00F6A6E6 /* Resources */,
 				E47050EA14AD489D00F6A6E6 /* cocos2d */,
@@ -933,12 +1015,13 @@
 		E470528114AD607E00F6A6E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E470528214AD60C400F6A6E6 /* BackgroundLayer.h */,
-				E470528314AD60C400F6A6E6 /* BackgroundLayer.m */,
-				E470528514AD62F300F6A6E6 /* GameplayLayer.h */,
-				E470528614AD62F300F6A6E6 /* GameplayLayer.m */,
-				E470528814AD645C00F6A6E6 /* GameScene.h */,
-				E470528914AD645C00F6A6E6 /* GameScene.m */,
+				E428396A14B414050042A1D5 /* Singletons */,
+				E428396914B413FD0042A1D5 /* PowerUps */,
+				E428396814B413F30042A1D5 /* EnemyObjects */,
+				E428396714B413E60042A1D5 /* GameObjects */,
+				E428396614B413DB0042A1D5 /* Constants */,
+				E428396514B413D70042A1D5 /* Scenes */,
+				E428396414B413B70042A1D5 /* Layers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1062,6 +1145,11 @@
 				E47016F814AE87B4002FE09F /* an1_anim2.png in Resources */,
 				E47016F914AE87B4002FE09F /* an1_anim3.png in Resources */,
 				E47016FA14AE87B4002FE09F /* an1_anim4.png in Resources */,
+				E428395B14B411D10042A1D5 /* RadarDish.plist in Resources */,
+				E428396014B413920042A1D5 /* EnemyRobot.plist in Resources */,
+				E428396114B413920042A1D5 /* Health.plist in Resources */,
+				E428396214B413920042A1D5 /* Mallet.plist in Resources */,
+				E428396314B413920042A1D5 /* Viking.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1171,7 +1259,6 @@
 				E470522014AD489F00F6A6E6 /* main.m in Sources */,
 				E470522314AD489F00F6A6E6 /* AppDelegate.m in Sources */,
 				E470522614AD489F00F6A6E6 /* RootViewController.m in Sources */,
-				E470522914AD489F00F6A6E6 /* HelloWorldLayer.m in Sources */,
 				E470528414AD60C400F6A6E6 /* BackgroundLayer.m in Sources */,
 				E470528714AD62F300F6A6E6 /* GameplayLayer.m in Sources */,
 				E470528A14AD645C00F6A6E6 /* GameScene.m in Sources */,
@@ -1181,6 +1268,7 @@
 				E4B19B4814AE30D900BF080E /* SneakyButtonSkinnedBase.m in Sources */,
 				E4B19B4914AE30D900BF080E /* SneakyJoystick.m in Sources */,
 				E4B19B4A14AE30D900BF080E /* SneakyJoystickSkinnedBase.m in Sources */,
+				E428396F14B417890042A1D5 /* GameObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
