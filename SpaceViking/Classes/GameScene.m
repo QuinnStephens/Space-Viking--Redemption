@@ -13,7 +13,7 @@
 -(id) init{
   self = [super init];
   if(self!=nil){
-    BackgroundLayer *backgroundLayer = [BackgroundLayer node]; //node is alloc init together
+    BackgroundLayer *backgroundLayer = [BackgroundLayer node]; //node is alloc init autorelease(?) together
     [self addChild:backgroundLayer z:0];
     
     GameplayLayer *gameplayLayer = [GameplayLayer node];

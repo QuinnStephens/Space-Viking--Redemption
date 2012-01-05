@@ -13,6 +13,9 @@
 		E428396214B413920042A1D5 /* Mallet.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395E14B413920042A1D5 /* Mallet.plist */; };
 		E428396314B413920042A1D5 /* Viking.plist in Resources */ = {isa = PBXBuildFile; fileRef = E428395F14B413920042A1D5 /* Viking.plist */; };
 		E428396F14B417890042A1D5 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E428396E14B417890042A1D5 /* GameObject.m */; };
+		E436356514B515CE002D8B2E /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = E436356414B515CE002D8B2E /* GameCharacter.m */; };
+		E436356D14B5190E002D8B2E /* RadarDish.m in Sources */ = {isa = PBXBuildFile; fileRef = E436356C14B5190E002D8B2E /* RadarDish.m */; };
+		E436357014B522D6002D8B2E /* Viking.m in Sources */ = {isa = PBXBuildFile; fileRef = E436356F14B522D6002D8B2E /* Viking.m */; };
 		E47016DF14AE7F82002FE09F /* scene1atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DB14AE7F82002FE09F /* scene1atlas.plist */; };
 		E47016E014AE7F82002FE09F /* scene1atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = E47016DC14AE7F82002FE09F /* scene1atlas.png */; };
 		E47016E114AE7F82002FE09F /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */; };
@@ -190,6 +193,12 @@
 		E428396C14B415350042A1D5 /* CommonProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
 		E428396D14B417890042A1D5 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = Classes/GameObject.h; sourceTree = "<group>"; };
 		E428396E14B417890042A1D5 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = Classes/GameObject.m; sourceTree = "<group>"; };
+		E436356314B515CE002D8B2E /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCharacter.h; path = Classes/GameCharacter.h; sourceTree = "<group>"; };
+		E436356414B515CE002D8B2E /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCharacter.m; path = Classes/GameCharacter.m; sourceTree = "<group>"; };
+		E436356B14B5190E002D8B2E /* RadarDish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadarDish.h; path = Classes/RadarDish.h; sourceTree = "<group>"; };
+		E436356C14B5190E002D8B2E /* RadarDish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadarDish.m; path = Classes/RadarDish.m; sourceTree = "<group>"; };
+		E436356E14B522D6002D8B2E /* Viking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Viking.h; path = Classes/Viking.h; sourceTree = "<group>"; };
+		E436356F14B522D6002D8B2E /* Viking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Viking.m; path = Classes/Viking.m; sourceTree = "<group>"; };
 		E47016DB14AE7F82002FE09F /* scene1atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlas.plist; sourceTree = "<group>"; };
 		E47016DC14AE7F82002FE09F /* scene1atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlas.png; sourceTree = "<group>"; };
 		E47016DD14AE7F82002FE09F /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
@@ -549,6 +558,10 @@
 			children = (
 				E428396D14B417890042A1D5 /* GameObject.h */,
 				E428396E14B417890042A1D5 /* GameObject.m */,
+				E436356314B515CE002D8B2E /* GameCharacter.h */,
+				E436356414B515CE002D8B2E /* GameCharacter.m */,
+				E436356E14B522D6002D8B2E /* Viking.h */,
+				E436356F14B522D6002D8B2E /* Viking.m */,
 			);
 			name = GameObjects;
 			sourceTree = "<group>";
@@ -556,6 +569,8 @@
 		E428396814B413F30042A1D5 /* EnemyObjects */ = {
 			isa = PBXGroup;
 			children = (
+				E436356B14B5190E002D8B2E /* RadarDish.h */,
+				E436356C14B5190E002D8B2E /* RadarDish.m */,
 			);
 			name = EnemyObjects;
 			sourceTree = "<group>";
@@ -1269,6 +1284,9 @@
 				E4B19B4914AE30D900BF080E /* SneakyJoystick.m in Sources */,
 				E4B19B4A14AE30D900BF080E /* SneakyJoystickSkinnedBase.m in Sources */,
 				E428396F14B417890042A1D5 /* GameObject.m in Sources */,
+				E436356514B515CE002D8B2E /* GameCharacter.m in Sources */,
+				E436356D14B5190E002D8B2E /* RadarDish.m in Sources */,
+				E436357014B522D6002D8B2E /* Viking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

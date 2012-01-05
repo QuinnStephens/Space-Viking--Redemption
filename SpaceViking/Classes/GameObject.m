@@ -25,7 +25,7 @@
 }
 
 -(void)changeState:(CharacterStates)newState{
-  CCLOG(@"GameObject->changeState method should be overriddem");
+  CCLOG(@"GameObject->changeState method should be overridden");
 }
 
 -(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray *)listOfGameObjects{
@@ -78,7 +78,6 @@
     NSString *frameName = [NSString stringWithFormat:@"%@%@.png", animationFramePrefix,frameNumber];
     [animationToReturn addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName]];
   }
-  
   return animationToReturn;
 }
 
