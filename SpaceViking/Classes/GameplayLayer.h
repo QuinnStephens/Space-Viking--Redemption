@@ -11,12 +11,16 @@
 #import "SneakyJoystick.h"
 #import "SneakyButtonSkinnedBase.h"
 #import "SneakyJoystickSkinnedBase.h"
+#import "Constants.h" 
+#import "CommonProtocols.h"
+#import "RadarDish.h"
+#import "Viking.h"
 
 @interface GameplayLayer : CCLayer{
-  CCSprite *vikingSprite;
   SneakyJoystick *leftJoystick;
   SneakyButton *jumpButton;
   SneakyButton *attackButton;
+  CCSpriteBatchNode *sceneSpriteBatchNode;
 }
 
 @end

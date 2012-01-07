@@ -36,6 +36,7 @@
 @synthesize phaserShockAnim; 
 @synthesize deathAnim;
 
+
 -(void) dealloc{
   joystick = nil;
   jumpButton = nil;
@@ -176,6 +177,150 @@
   if(action != nil){
     [self runAction:action];
   }
+}
+
+#pragma mark -
+-(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray *)listOfGameObjects{
+  if (self.characterState == kStateDead)
+    return;
+  
+  if ((self.characterState == kStateTakingDamage) && ([self numberOfRunningActions] > 0))
+      return; // Currently playing the taking damage animation
+    
+  // Check for collisions
+  // Change this to keep object count from querying it each time
+  CGRect myBoundingBox = [self adjustedBoundingBox];
+  for(GameCharacter *character in listOfGameObjects){
+    // Ignore collision with self
+    if([character tag] == kVikingSpriteTagValue)
+      continue;
+    
+    CGRect characterBox = [character adjustedBoundingBox];
+    if(CGRectIntersectsRect(myBoundingBox, characterBox)){
+      // Remove PhaserBullet from scene
+      if([character gameObjectType] == kEnemyTypePhaser){
+        [self changeState:kStateTakingDamage];
+        [character changeState:kStateDead];
+      } else if([character gameObjectType] == kPowerUpTypeMallet){
+        // Update frame to indicate Viking is carrying mallet
+        isCarryingMallet = YES;
+        [self changeState:kStateIdle];
+        // Remove mallet
+        [character changeState:kStateDead];
+      } else if([character gameObjectType] == kPowerUpTypeHealth){
+        [self setCharacterHealth:100.0f];
+        [character changeState:kStateDead];
+      }
+        
+    }
+  }
+  
+  [self checkAndClampSpritePosition];
+  if ((self.characterState == kStateIdle) ||
+      (self.characterState == kStateWalking) ||
+      (self.characterState == kStateCrouching) ||
+      (self.characterState == kStateStandingUp) ||
+      (self.characterState == kStateBreathing)){
+    
+    if (jumpButton.active) {
+      CCLOG(@"Jump!");
+      [self changeState:kStateJumping];
+    } else if (attackButton.active){
+      CCLOG(@"Attack!");
+      [self changeState:kStateAttacking];
+    } else if (joystick.velocity.x == 0.0f && joystick.velocity.y == 0.0f){
+      if (self.characterState == kStateCrouching) 
+        [self changeState:kStateStandingUp];
+      
+    } else if (joystick.velocity.y < -0.45f){
+      if (self.characterState != kStateWalking) 
+        [self changeState:kStateCrouching];
+    } else if (joystick.velocity.x != 0.0f){
+      if (self.characterState != kStateWalking)
+        [self changeState:kStateWalking];
+      [self applyJoystick:joystick forTimeDelta:deltaTime];
+    }    
+  }
+  if ([self numberOfRunningActions] == 0) {
+    // Not playing an animation
+    if (self.characterHealth <= 0.0f) {
+      [self changeState:kStateDead];
+    } else if (self.characterState == kStateIdle){
+      millisecondsStayingIdle += deltaTime;
+      if (millisecondsStayingIdle > kVikingIdleTimer) {
+        [self changeState:kStateBreathing];
+      }
+    } else if (self.characterState != kStateCrouching && self.characterState != kStateIdle){
+      millisecondsStayingIdle = 0.0f;
+      [self changeState:kStateIdle];
+    }
+  }
+}
+
+#pragma mark -
+-(CGRect)adjustedBoundingBox{
+  // eliminate transparent space from bounding box
+  CGRect vikingBoundingBox = [self boundingBox];
+  float xOffset;
+  float xCropAmount = vikingBoundingBox.size.width * 0.5482f;
+  float yCropAmount = vikingBoundingBox.size.height * 0.095f;
+  
+  if ([self flipX] == NO) {
+    // Viking is facing right
+    xOffset = vikingBoundingBox.size.width * 0.1566f;
+  } else{
+    xOffset = vikingBoundingBox.size.width * 0.4217f;
+  }
+  vikingBoundingBox = CGRectMake(vikingBoundingBox.origin.x + xOffset, 
+                                 vikingBoundingBox.origin.y, 
+                                 vikingBoundingBox.size.width - xCropAmount, 
+                                 vikingBoundingBox.size.height - yCropAmount);
+  if (characterState == kStateCrouching) {
+    vikingBoundingBox = CGRectMake(vikingBoundingBox.origin.x, 
+                                   vikingBoundingBox.origin.y, 
+                                   vikingBoundingBox.size.width, 
+                                   vikingBoundingBox.size.height * 0.56f);
+  }
+  return vikingBoundingBox;
+}
+
+#pragma mark -
+-(void)initAnimations{
+  [self setBreathingAnim:[self loadPlistForAnimationWithName:@"breathingAnim" andClassName:NSStringFromClass([self class])]];
+  [self setBreathingMalletAnim:[self loadPlistForAnimationWithName: @"breathingMalletAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setWalkingAnim:[self loadPlistForAnimationWithName: @"walkingAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setWalkingMalletAnim:[self loadPlistForAnimationWithName: @"walkingMalletAnim" andClassName:NSStringFromClass([self class])]];
+  [self setCrouchingAnim:[self loadPlistForAnimationWithName: @"crouchingAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setCrouchingMalletAnim:[self loadPlistForAnimationWithName: @"crouchingMalletAnim" andClassName:NSStringFromClass([self class])]];
+  [self setStandingUpAnim:[self loadPlistForAnimationWithName: @"standingUpAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setStandingUpMalletAnim:[self loadPlistForAnimationWithName: @"standingUpMalletAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setJumpingAnim:[self loadPlistForAnimationWithName: @"jumpingAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setJumpingMalletAnim:[self loadPlistForAnimationWithName: @"jumpingMalletAnim" andClassName:NSStringFromClass([self class])]];
+  [self setAfterJumpingAnim:[self loadPlistForAnimationWithName: @"afterJumpingAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setAfterJumpingMalletAnim:[self loadPlistForAnimationWithName: @"afterJumpingMalletAnim" andClassName:NSStringFromClass([self class])]]; 
+  // Punches
+  [self setRightPunchAnim:[self loadPlistForAnimationWithName:@"rightPunchAnim" andClassName:NSStringFromClass([self class])]]; 
+  [self setLeftPunchAnim:[self loadPlistForAnimationWithName: @"leftPunchAnim" andClassName:NSStringFromClass([self class])]];
+  [self setMalletPunchAnim:[self loadPlistForAnimationWithName: @"malletPunchAnim" andClassName:NSStringFromClass([self class])]]; 
+  // Taking Damage and Death
+  [self setPhaserShockAnim:[self loadPlistForAnimationWithName: @"phaserShockAnim" andClassName:NSStringFromClass([self class])]];
+  [self setDeathAnim:[self loadPlistForAnimationWithName: @"vikingDeathAnim" andClassName:NSStringFromClass([self class])]]; 
+}
+
+#pragma mark -
+-(id) init{
+  if(self = [super init]){
+    joystick = nil;
+    jumpButton = nil;
+    attackButton = nil;
+    self.gameObjectType = kVikingType;
+    myLastPunch = kRightHook;
+    millisecondsStayingIdle = 0.0f;
+    isCarryingMallet = NO;
+    [self initAnimations];
+  }
+  return self;
+      
 }
 
 @end

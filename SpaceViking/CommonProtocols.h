@@ -34,6 +34,7 @@ typedef enum {
 typedef enum{
   kObjectTypeNone,
   kPowerUpTypeHealth,
+  kPowerUpTypeMallet,
   kEnemyTypeRadarDish, 
   kEnemyTypeSpaceCargoShip,
   kEnemyTypeAlienRobot,

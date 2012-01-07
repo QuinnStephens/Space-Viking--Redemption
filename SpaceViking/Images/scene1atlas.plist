@@ -4,7 +4,6 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		
 		<key>an1_anim1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -24,7 +23,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim10.png</key>
 		<dict>
 			<key>aliases</key>
@@ -44,7 +42,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim11.png</key>
 		<dict>
 			<key>aliases</key>
@@ -64,7 +61,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim12.png</key>
 		<dict>
 			<key>aliases</key>
@@ -84,7 +80,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim13.png</key>
 		<dict>
 			<key>aliases</key>
@@ -104,7 +99,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim14.png</key>
 		<dict>
 			<key>aliases</key>
@@ -124,7 +118,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim15.png</key>
 		<dict>
 			<key>aliases</key>
@@ -144,7 +137,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim16.png</key>
 		<dict>
 			<key>aliases</key>
@@ -164,7 +156,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim17.png</key>
 		<dict>
 			<key>aliases</key>
@@ -184,7 +175,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim18.png</key>
 		<dict>
 			<key>aliases</key>
@@ -204,7 +194,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim19.png</key>
 		<dict>
 			<key>aliases</key>
@@ -224,7 +213,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -244,7 +232,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim20.png</key>
 		<dict>
 			<key>aliases</key>
@@ -264,7 +251,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim21.png</key>
 		<dict>
 			<key>aliases</key>
@@ -284,7 +270,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim22.png</key>
 		<dict>
 			<key>aliases</key>
@@ -304,7 +289,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim23.png</key>
 		<dict>
 			<key>aliases</key>
@@ -324,7 +308,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim24.png</key>
 		<dict>
 			<key>aliases</key>
@@ -344,7 +327,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim25.png</key>
 		<dict>
 			<key>aliases</key>
@@ -364,7 +346,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim26.png</key>
 		<dict>
 			<key>aliases</key>
@@ -384,7 +365,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim27.png</key>
 		<dict>
 			<key>aliases</key>
@@ -404,7 +384,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim28.png</key>
 		<dict>
 			<key>aliases</key>
@@ -424,7 +403,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim29.png</key>
 		<dict>
 			<key>aliases</key>
@@ -444,7 +422,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -464,7 +441,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim30.png</key>
 		<dict>
 			<key>aliases</key>
@@ -484,7 +460,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim31.png</key>
 		<dict>
 			<key>aliases</key>
@@ -504,7 +479,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim32.png</key>
 		<dict>
 			<key>aliases</key>
@@ -524,7 +498,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim33.png</key>
 		<dict>
 			<key>aliases</key>
@@ -544,7 +517,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim34.png</key>
 		<dict>
 			<key>aliases</key>
@@ -564,7 +536,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim35.png</key>
 		<dict>
 			<key>aliases</key>
@@ -584,7 +555,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim36.png</key>
 		<dict>
 			<key>aliases</key>
@@ -604,7 +574,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -624,7 +593,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim5.png</key>
 		<dict>
 			<key>aliases</key>
@@ -644,7 +612,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim6.png</key>
 		<dict>
 			<key>aliases</key>
@@ -664,7 +631,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim7.png</key>
 		<dict>
 			<key>aliases</key>
@@ -684,7 +650,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim8.png</key>
 		<dict>
 			<key>aliases</key>
@@ -704,7 +669,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>an1_anim9.png</key>
 		<dict>
 			<key>aliases</key>
@@ -724,7 +688,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>bam.png</key>
 		<dict>
 			<key>aliases</key>
@@ -744,7 +707,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>beam_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -764,7 +726,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>beam_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -784,7 +745,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>beam_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -804,7 +764,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>beam_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -824,7 +783,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>bolt_lg.png</key>
 		<dict>
 			<key>aliases</key>
@@ -844,7 +802,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>bolt_sm.png</key>
 		<dict>
 			<key>aliases</key>
@@ -864,7 +821,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>clawhammer.png</key>
 		<dict>
 			<key>aliases</key>
@@ -884,7 +840,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>crowbar.png</key>
 		<dict>
 			<key>aliases</key>
@@ -904,7 +859,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>gear_lg.png</key>
 		<dict>
 			<key>aliases</key>
@@ -924,7 +878,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>gear_sm.png</key>
 		<dict>
 			<key>aliases</key>
@@ -944,7 +897,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>hanger.png</key>
 		<dict>
 			<key>aliases</key>
@@ -964,7 +916,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>mallet_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -984,7 +935,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>mallet_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1004,7 +954,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>mallet_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1024,7 +973,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>mallet_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1044,7 +992,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>old_comb.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1064,7 +1011,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>oldcan.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1084,7 +1030,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>oof.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1104,7 +1049,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>platform.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1124,7 +1068,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>pow.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1144,7 +1087,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1164,7 +1106,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_10.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1184,7 +1125,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_11.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1204,7 +1144,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_12.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1224,7 +1163,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_13.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1244,7 +1182,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_14.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1264,7 +1201,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_15.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1284,7 +1220,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_16.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1304,7 +1239,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_17.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1324,7 +1258,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1344,7 +1277,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1364,7 +1296,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1384,7 +1315,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_5.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1404,7 +1334,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_6.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1424,7 +1353,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_7.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1444,7 +1372,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_8.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1464,7 +1391,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>radar_9.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1484,7 +1410,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1504,7 +1429,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1524,7 +1448,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1544,7 +1467,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1564,7 +1486,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_5.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1584,7 +1505,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_6.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1604,7 +1524,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_7.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1624,7 +1543,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sandwich_8.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1644,7 +1562,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>shadow.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1664,7 +1581,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>ship_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1684,7 +1600,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>smash.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1704,7 +1619,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sneaker.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1724,7 +1638,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>spring.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1744,7 +1657,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_0.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1764,7 +1676,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_1.1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1784,7 +1695,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_1.2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1804,7 +1714,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1824,7 +1733,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_10.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1844,7 +1752,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_11.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1864,7 +1771,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_12.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1884,7 +1790,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_13.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1904,7 +1809,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_14.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1924,7 +1828,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_15.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1944,7 +1847,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_16.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1964,7 +1866,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_17.png</key>
 		<dict>
 			<key>aliases</key>
@@ -1984,7 +1885,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_18.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2004,7 +1904,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_19.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2024,7 +1923,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2044,7 +1942,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_20.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2064,7 +1961,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_21.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2084,7 +1980,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_22.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2104,7 +1999,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_23.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2124,7 +2018,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_24.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2144,7 +2037,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_25.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2164,7 +2056,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_26.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2184,7 +2075,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_27.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2204,7 +2094,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_28.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2224,7 +2113,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_29.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2244,7 +2132,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2264,7 +2151,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_30.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2284,7 +2170,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_31.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2304,7 +2189,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_32.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2324,7 +2208,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_33.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2344,7 +2227,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_34.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2364,7 +2246,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_35.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2384,7 +2265,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_36.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2404,7 +2284,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_37.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2424,7 +2303,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_38.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2444,7 +2322,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2464,7 +2341,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_5.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2484,7 +2360,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_6.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2504,7 +2379,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_7.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2524,7 +2398,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_8.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2544,7 +2417,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_anim_9.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2564,7 +2436,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_0.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2584,7 +2455,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_1.1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2604,7 +2474,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_1.2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2624,7 +2493,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_1.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2644,7 +2512,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_10.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2664,7 +2531,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_11.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2684,7 +2550,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_12.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2704,7 +2569,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_13.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2724,7 +2588,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_14.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2744,7 +2607,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_15.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2764,7 +2626,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_16.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2784,7 +2645,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_17.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2804,7 +2664,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_18.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2824,7 +2683,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_19.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2844,7 +2702,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_2.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2864,7 +2721,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_20.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2884,7 +2740,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_21.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2904,7 +2759,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_22.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2924,7 +2778,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_23.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2944,7 +2797,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_24.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2964,7 +2816,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_25.png</key>
 		<dict>
 			<key>aliases</key>
@@ -2984,7 +2835,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_26.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3004,7 +2854,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_27.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3024,7 +2873,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_28.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3044,7 +2892,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_29.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3064,7 +2911,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_3.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3084,7 +2930,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_30.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3104,7 +2949,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_31.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3124,7 +2968,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_32.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3144,7 +2987,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_33.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3164,7 +3006,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_4.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3184,7 +3025,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_5.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3204,7 +3044,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_6.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3224,7 +3063,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_7.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3244,7 +3082,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_8.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3264,7 +3101,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>sv_mallet_9.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3284,7 +3120,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 		<key>teleport.png</key>
 		<dict>
 			<key>aliases</key>
@@ -3304,7 +3139,6 @@
 			<key>textureRotated</key>
 			<false/>
 		</dict>
-		
 	</dict>
 	<key>metadata</key>
 	<dict>
