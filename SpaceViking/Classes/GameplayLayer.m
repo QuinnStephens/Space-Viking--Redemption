@@ -7,6 +7,11 @@
 //
 
 #import "GameplayLayer.h"
+#import "SpaceCargoShip.h"
+#import "EnemyRobot.h"
+#import "PhaserBullet.h"
+#import "Mallet.h"
+#import "Health.h"
 
 @implementation GameplayLayer
 
@@ -76,10 +81,10 @@
 -(void) update:(ccTime)deltaTime{
   CCArray *listOfGameObjects = [sceneSpriteBatchNode children];
   for (GameCharacter *tempChar in listOfGameObjects){
-    [tempChar updateStateWithDeltaTime:deltaTime andListOfGameObjects:listOfGameObjects];
     if ([tempChar tag] == kRadarDishTagValue && [tempChar characterState] == kStateDead) {
       CCLOG(@"Radar dish destroyed. You win!");
     }
+    [tempChar updateStateWithDeltaTime:deltaTime andListOfGameObjects:listOfGameObjects];
   }
 }
 
@@ -92,12 +97,59 @@
     [radarDish setPosition:spawnLocation];
     [sceneSpriteBatchNode addChild:radarDish z:ZValue tag:kRadarDishTagValue];
     [radarDish release];
+  } else if (objectType == kEnemyTypeAlienRobot){
+    CCLOG(@"Creating enemy robot");
+    EnemyRobot *enemyRobot = [[EnemyRobot alloc] initWithSpriteFrameName:@"an1_anim1.png"];
+    [enemyRobot setCharacterHealth:initialHealth];
+    [enemyRobot setPosition:spawnLocation];
+    [enemyRobot changeState:kStateSpawning];
+    [sceneSpriteBatchNode addChild:enemyRobot z:ZValue];
+    [enemyRobot setDelegate:self];
+    [enemyRobot release];
+  } else if (objectType == kEnemyTypeSpaceCargoShip){
+    CCLOG(@"Creating cargo ship");
+    SpaceCargoShip *spaceCargoShip = [[SpaceCargoShip alloc] initWithSpriteFrameName:@"ship_2.png"];
+    [spaceCargoShip setDelegate:self];
+    [spaceCargoShip setPosition:spawnLocation];
+    [sceneSpriteBatchNode addChild:spaceCargoShip z:ZValue];
+    [spaceCargoShip release];
+  } else if (kPowerUpTypeMallet == objectType){
+    CCLOG(@"GameplayLayer->Creating mallet powerup");
+    Mallet *mallet = [[Mallet alloc] initWithSpriteFrameName:@"mallet_1.png"];
+    [mallet setPosition:spawnLocation];
+    [sceneSpriteBatchNode addChild:mallet];
+    [mallet release];
+  } else if (kPowerUpTypeHealth == objectType){
+    CCLOG(@"GameplayLater->Creating health powerup");
+    Health *health = [[Health alloc] initWithSpriteFrameName:@"sandwich_1.png"];
+    [health setPosition:spawnLocation];
+    [sceneSpriteBatchNode addChild:health];
+    [health release];
   }
 }
 
 -(void) createPhaserWithDirection:(PhaserDirection)phaserDirection andPosition:(CGPoint)spawnPosition{
-  CCLOG(@"Placeholder for phaser");
-  return;
+  PhaserBullet *phaserBullet = [[PhaserBullet alloc] initWithSpriteFrameName:@"beam_1.png"];
+  [phaserBullet setPosition:spawnPosition];
+  [phaserBullet setMyDirection:phaserDirection];
+  [phaserBullet setCharacterState:kStateSpawning];
+  if(phaserDirection == kDirectionRight){
+    [phaserBullet setFlipX:YES];
+  }
+  [sceneSpriteBatchNode addChild:phaserBullet];
+  [phaserBullet release];
+}
+
+-(void) addEnemy{
+  CGSize screenSize = [CCDirector sharedDirector].winSize;
+  RadarDish *radarDish = (RadarDish*)[sceneSpriteBatchNode getChildByTag:kRadarDishTagValue];
+  if (radarDish != nil) {
+    if ([radarDish characterState] != kStateDead) {
+      [self createObjectOfType:kEnemyTypeAlienRobot withHealth:100 atLocation:ccp(screenSize.width * 0.195f, screenSize.height * 0.1432f) withZValue:2];
+    } else{
+      [self unschedule:@selector(addEnemy)];
+    }
+  }
 }
 
 -(id) init{
@@ -129,6 +181,8 @@
     [self createObjectOfType:kEnemyTypeRadarDish withHealth:100 atLocation:ccp(screenSize.width * 0.878f, screenSize.height * 0.13f) withZValue:10];
     
     [self scheduleUpdate];
+    [self schedule:@selector(addEnemy) interval:10.0f];
+    [self createObjectOfType:kEnemyTypeSpaceCargoShip withHealth:0 atLocation:ccp(screenSize.width * -0.5f, screenSize.height * 0.74f) withZValue:50];
   }
   return self;
 }

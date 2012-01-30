@@ -29,7 +29,7 @@
 }
 
 -(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray *)listOfGameObjects{
-  CCLOG(@"updateStateWithDeltaTime method should be overridden");
+  //CCLOG(@"updateStateWithDeltaTime method should be overridden");
 }
 
 -(CGRect)adjustedBoundingBox{
